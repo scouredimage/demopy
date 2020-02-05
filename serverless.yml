@@ -1,0 +1,17 @@
+org: scouredimage
+app: demoapp
+service: pytest
+
+provider:
+  name: aws
+  runtime: python3.8
+
+functions:
+  hello:
+    handler: handler.hello
+    timeout: 5
+
+    events:
+      - http:
+          path: hello
+          method: get
