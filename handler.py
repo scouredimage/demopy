@@ -1,7 +1,7 @@
 import json
 
 def hello(event, context):
-    context.serverless_sdk.set_endpoint('/german/gutentag')
+    #context.serverless_sdk.set_endpoint('/german/gutentag')
     body = {
         "message": "Go Serverless v1.0! Your function executed successfully!",
         "input": event
