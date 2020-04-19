@@ -5,7 +5,7 @@ def hello(event, context):
     #context.serverless_sdk.set_endpoint('/german/gutentag')
     lucky = secrets.choice(range(100))
     body = {
-        "message": f"Hello! Your lucky number is {lucky}"
+        "message": f"Hello! Your lucky number is {lucky}",
         "input": event
     }
 
