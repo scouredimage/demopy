@@ -1,9 +1,11 @@
 import json
+import secrets
 
 def hello(event, context):
     #context.serverless_sdk.set_endpoint('/german/gutentag')
+    lucky = secrets.choice(range(100))
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "message": f"Hello! Your lucky number is {lucky}",
         "input": event
     }
 
