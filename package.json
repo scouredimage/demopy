@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/scouredimage/demopy/issues"
   },
-  "homepage": "https://github.com/scouredimage/demopy#readme"
+  "homepage": "https://github.com/scouredimage/demopy#readme",
+  "dependencies": {}
 }
