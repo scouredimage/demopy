@@ -4,11 +4,11 @@ service: pytest
 
 provider:
   name: aws
-  runtime: python2.7
+  runtime: python3.8
 
 functions:
   hello:
-    handler: handler.hello
+    handler: amodule/handler.hello
     timeout: 5
 
     events:
